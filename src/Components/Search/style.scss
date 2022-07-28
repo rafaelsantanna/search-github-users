@@ -1,0 +1,45 @@
+.logo {
+  max-width: 280px;
+  margin-bottom: 40px;
+}
+
+.search-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #272740;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: 0;
+    border: 2px solid #272740;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  &__button {
+    background-color: #272740;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: .4s;
+
+    &:hover {
+      background-color: lighten(#272740, 10%);
+    }
+  }
+}
